@@ -1,3 +1,70 @@
 body {
     padding-top: 5rem;
+    color: gray;
+}
+
+.container{
+    border-color: #E2E8F0;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    min-width: 350px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cover{
+    color: #ffffff;
+    background-color: #18a357;
+    padding-top: 32px;
+}
+
+.display{
+    border-radius: 50%;
+    width: 20%;
+    min-width: 200px;
+}
+
+.data{
+    line-height: 0.5;
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+
+.info{
+    
+    padding-top: 32px;
+}
+
+
+.profile{
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.numbers{
+    display: inline-block;
+    padding: 0 24px;
+    line-height: 0.5;
+}
+
+
+#num{
+    color: #000000;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+.button {
+    background-color: #0af112; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
 }

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block main %}
+
+<div class="container">
+    <div class="cover">
+        <img class="display" src="{{ url_for ('static', filename= 'display.jpg') }}" alt="display photo">
+        <div class="data">
+            <h1>{{name}}</h1>
+            <p>{{handle}}</p>
+            <p>{{location}}</p>
+            <p>{{date}}</p>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="bio">
+            <p> "The Dark Side of the Force is a pathway to many abilities some consider to be unnatural." - Sheev Palpatine</p>
+        </div>
+
+        <div class="profile">
+        <div class="numbers">
+            <p id="num"> 7 </p>
+            <p>Posts</p>
+        </div>
+
+        <div class="numbers">
+            <p id="num"> 1000 </p>
+            <p>Following</p>
+        </div>
+
+        <div class="numbers">
+            <p id="num"> 1676 </p>
+            <p>Followers</p>
+        </div>
+        </div>
+    </div>
+
+    <div>
+        <button type="button" class="button">Follow</button>
+    </div>
+</div>
+{% endblock %}
